@@ -1,0 +1,185 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 700;
+}
+
+#title{
+    background-color: #ff4c68;
+    font-family: Ubuntu, Montserrat;
+    color: #fff;
+    text-align: left;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Nav bar */
+
+.navbar{
+    padding-bottom: 4.5rem ;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 3rem;
+}
+
+/* Download button */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title */
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.title-image{
+    width: 22%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+.title-div{
+    bottom: 300px;
+}
+
+/* features-section-2nd page */
+
+.features-div{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.features-h3{
+    /* font-family: "Ubuntu"; */
+    font-size: 2rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.features-box{
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+ /* Testimonials */
+
+#testimonials{
+    background-color: #ef8172;
+    /* padding: 8rem; */
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.testimonials-heading{
+    /* font-family: "Ubuntu"; */
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-heading{
+    /* font-family: "Ubuntu"; */
+    line-height: 4;
+}
+
+.pricing-heading-h2{
+    font-size: 3rem;
+}
+
+
+/* Call to Action */
+
+.cta-div{
+    background-color: #ff4c68;
+    padding: 10rem;
+}
+
+.cta-div-heading{
+    /* font-family: "Ubuntu"; */
+    color: #fff;
+    line-height: 2;
+    font-size: 3rem;
+}
+
+.cta-button{
+    margin: 1rem;
+}
+
+/* footer */
+
+.footer-div{
+    padding: 8rem;
+}
+
+.footer-img{
+    margin: 0.5rem;
+}
+
+
+/* media query */
+
+@media (max-width: 1000px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
